@@ -1,0 +1,54 @@
+/* ===============================
+   🌍 GLOBAL RESET + THEME STYLES
+================================= */
+
+/* 1️⃣ RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+/* 2️⃣ BASE STYLES */
+body {
+  font-family: "Poppins", "Segoe UI", Roboto, sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.6;
+}
+
+/* 3️⃣ LINKS & LISTS */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* 4️⃣ MEDIA */
+img,
+video {
+  max-width: 100%;
+  display: block;
+}
+
+/* 5️⃣ ROOT COLOR VARIABLES */
+:root {
+  --color-bg: #f9fafc;
+  --color-text: #222;
+  --color-primary: #007bff;
+  --color-secondary: #6c757d;
+  --color-accent: #ff4081;
+}

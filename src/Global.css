@@ -1,5 +1,5 @@
 /* ===============================
-   🌍 GLOBAL RESET + THEME STYLES
+ GLOBAL RESET + THEME STYLES
 ================================= */
 
 /* 1️⃣ RESET */
@@ -43,12 +43,12 @@ video {
   max-width: 100%;
   display: block;
 }
+/* global reset end */
 
-/* 5️⃣ ROOT COLOR VARIABLES */
 :root {
-  --color-bg: #f9fafc;
-  --color-text: #222;
-  --color-primary: #007bff;
-  --color-secondary: #6c757d;
+  --color-bg: rgba(10, 10, 11, 1);
+  --color-text: rgba(255, 255, 255, 1);
+  --color-primary-blur: rgba(65, 119, 220, 1);
+  --color-secondary-green: rgba(2, 219, 138, 1);
   --color-accent: #ff4081;
 }
